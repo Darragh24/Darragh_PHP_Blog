@@ -10,4 +10,16 @@ class PagesController extends Controller
     {
         return view('index');
     }
+
+
+    public function about()
+    {
+        return view('about');
+    }
+
+
+    public function FAQ()
+    {
+        return view('FAQ');
+    }
 }
