@@ -20,6 +20,6 @@ class PagesController extends Controller
 
     public function FAQ()
     {
-        return view('FAQ');
+        return view('faq');
     }
 }
