@@ -5,9 +5,9 @@
 @import "tailwindcss/utilities";
 
 
-.background-image 
-{
-    background-image: url('https://cdn.pixabay.com/photo/2024/03/07/15/24/ai-generated-8618774_1280.jpg');
+
+.background-image {
+    background-image: url('https://media.istockphoto.com/id/1385658360/photo/beautiful-hills-and-mountains-colored-of-shades-of-blue-extending-up-to-the-horizon-at.jpg?s=612x612&w=0&k=20&c=NwQHbf9n8R0sZ-pItUdu6kskH6R-17DtOY8ZwACNSD0=');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
