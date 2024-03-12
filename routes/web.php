@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
+use App\Http\Controllers\LocationsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,8 @@ use App\Http\Controllers\PostsController;
 Route::get('/', [PagesController::class, 'index'])->name('home');
 Route::get('/about', [PagesController::class, 'about'])->name('about');
 Route::get('/faq', [PagesController::class, 'FAQ'])->name('faq');
-Route::get('/locations', [PagesController::class, 'locations'])->name('locations');
+//Route::get('/locations', [PagesController::class, 'locations'])->name('locations');
+Route::get('/locations', [LocationsController::class, 'index'])->name('locations');
 
 
 Route::resource('/blog', PostsController::class);
