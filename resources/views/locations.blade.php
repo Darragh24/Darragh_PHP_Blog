@@ -6,8 +6,6 @@
 
 <div class="main-container">
  @foreach ($locations as $location)
-
-
  <div class="locations-container">
   <div class="locations-box-container">
    <div class="locations-image-container">
@@ -20,7 +18,6 @@
    </div>
   </div>
   @endforeach
-
 
 
  </div>
