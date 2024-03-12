@@ -18,6 +18,7 @@
 </head>
 
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
+
     <div id="app">
         <header class="bg-blue-900 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
@@ -28,7 +29,7 @@
                 </div>
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
                     <a href="{{ route('about') }}" class="">About</a>
-                    <a href="{{ route('gallery') }}" class="">Gallery</a>
+                    <a href="{{ route('locations') }}" class="">Locations</a>
                     <a href="{{ route('faq') }}" class="">FAQ</a>
                     @guest
                     <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>

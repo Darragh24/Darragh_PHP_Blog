@@ -13,6 +13,40 @@
     height: 600px;
 }
 
-.gallery-container {
-    width: 10px;
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.locations-container {
+    padding-top: 100px;
+    width: 80%;
+    display: flex;
+}
+
+.locations-box-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.locations-image-container {
+    width: 50%;
+}
+
+.locations-image {
+    border-radius: 10px 0 0 10px; /* Adjust the radius as needed */
+}
+
+.locations-text-container {
+    width: 50%;
+    background-color: azure;
+    border-radius: 0 10px 10px 0; /* Adjust the radius as needed */
+    padding-left: 20px;
+}
+
+.text-h1 {
+    background-color: red;
+    font-weight: 500;
+    font-size: 20px;
 }
