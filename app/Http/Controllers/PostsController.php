@@ -8,7 +8,7 @@ use Cviebrock\EloquentSluggable\Services\SlugService;
 
 class PostsController extends Controller
 {
- 
+
     public function __construct()
     {
         $this->middleware('auth', ['except' => ['index', 'show']]);
@@ -45,6 +45,7 @@ class PostsController extends Controller
         $request->validate([
             'title' => 'required',
             'description' => 'required',
+            'blog_body' => 'required',
             'image' => 'required|mimes:jpg,png,jpeg|max:5048'
         ]);
 
@@ -55,6 +56,7 @@ class PostsController extends Controller
         Post::create([
             'title' => $request->input('title'),
             'description' => $request->input('description'),
+            'blog_body' => $request->input('blog_body'),
             'slug' => SlugService::createSlug(Post::class, 'slug', $request->title),
             'image_path' => $newImageName,
             'user_id' => auth()->user()->id
@@ -129,4 +131,3 @@ class PostsController extends Controller
             ->with('message', 'Your post has been deleted!');
     }
 }
-
