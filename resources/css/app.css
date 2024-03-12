@@ -39,14 +39,27 @@
 }
 
 .locations-text-container {
+    background-color: #374892;
+    color: white;
     width: 50%;
-    background-color: azure;
     border-radius: 0 10px 10px 0; /* Adjust the radius as needed */
-    padding-left: 20px;
 }
 
 .text-h1 {
-    background-color: red;
+    width: 100%;
+    padding: 10px;
     font-weight: 500;
     font-size: 20px;
+}
+.text-h2 {
+    width: 100%;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.text-h3 {
+    width: 100%;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 15px;
 }
