@@ -12,6 +12,8 @@
    </div>
    <div class="locations-text-container">
     <h1 class="text-h1">Pamukkale, Turkey</h1>
+    <h2 class="text-h2">Description:</h2>
+    <h3 class="text-h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, minima saepe officia cupiditate natus deserunt beatae molestias, quibusdam fugit nesciunt totam, corporis vero aliquam cumque at excepturi expedita sed error.</h3>
    </div>
   </div>
 
