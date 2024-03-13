@@ -5,9 +5,9 @@
     <div class="flex text-gray-100 pt-10">
         <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
             <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                Places you probably didn't know existed
+                Looking for heaven on earth?
             </h1>
-            <a href="/blog" class="text-center bg-red-50 text-green-700 py-2 px-4 font-bold text-xl uppercase">
+            <a href="/blog" class="text-center bg-indigo-300 hover:bg-indigo-100 hover:text-indigo-300 text-white-700 py-2 px-4 font-bold text-xl uppercase">
                 Read More
             </a>
         </div>
@@ -16,21 +16,22 @@
 
 <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
     <div>
-        <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+        <img src="https://www.relaxingjourneys.co.nz/wp-content/uploads/2018/11/ft-blog-exploring-waitomo-glowworm-caves.jpg" width="700" alt="">
     </div>
 
     <div class="m-auto sm:m-auto text-left w-4/5 block">
         <h2 class="text-3xl font-extrabold text-gray-600">
-            Struggling to be a better web developer?
+            Struggling to find the perfect place to visit this year?
 
         </h2>
 
-        <p class="py-8 text-gray-500 text-s">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+        <p class="font-extrabold text-gray-600 text-s py-8">
+            Well, look no further.
         </p>
 
-        <p class="font-extrabold text-gray-600 text-s pb-9">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+
+        <p class="pb-9 text-gray-500 text-s">
+            We're sure you'll find some inspiration from our blogs, or feel free to share your own go-to holiday locations!
         </p>
 
         <a href="/blog" class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
@@ -73,14 +74,14 @@
 </div>
 
 <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-    <div class="flex bg-yellow-700 text-gray-100 pt-10">
+    <div class="flex bg-indigo-500 text-gray-100 pt-10">
         <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
             <span class="uppercase text-xs">
-                PHP
+                Daniel Smith
             </span>
 
             <h3 class="text-xl font-bold py-10">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                Last year I went to Jervis Bay in Australia, and it was one of the most profound experiences of my entire life.
             </h3>
 
             <a href="" class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
@@ -89,7 +90,7 @@
         </div>
     </div>
     <div>
-        <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+        <img src="https://www.illawarramercury.com.au/images/transform/v1/crop/frm/TimAB2MTHanvQWPwhBc6mp/a5ce26e5-b875-415e-9f00-e08e06d2d5e9.JPG/r0_0_6000_4000_w6000_h4000_fmax.jpg" alt="">
     </div>
 </div>
 @endsection
