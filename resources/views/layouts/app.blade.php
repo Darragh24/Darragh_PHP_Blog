@@ -28,8 +28,11 @@
                     </a>
                 </div>
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
+                    <a href="/blog">
+                        Blog
+                    </a>
                     <a href="{{ route('about') }}" class="">About</a>
-                    <a href="{{ route('locations') }}" class="">Locations</a>
+                    <a href="{{ route('locations') }}" class="">Top 10 Locations</a>
                     <a href="{{ route('faq') }}" class="">FAQ</a>
                     @guest
                     <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
