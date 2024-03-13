@@ -23,11 +23,13 @@
     padding-top: 100px;
     width: 80%;
     display: flex;
+    flex-direction: column;
 }
 
 .locations-box-container {
     display: flex;
     flex-direction: row;
+    padding-bottom: 100px;
 }
 
 .locations-image-container {

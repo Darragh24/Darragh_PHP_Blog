@@ -5,8 +5,9 @@
 
 
 <div class="main-container">
- @foreach ($locations as $location)
+
  <div class="locations-container">
+  @foreach ($locations as $location)
   <div class="locations-box-container">
    <div class="locations-image-container">
     <img class="locations-image" src="{{ $location->image_url }}" alt="{{ $location->title }}">
