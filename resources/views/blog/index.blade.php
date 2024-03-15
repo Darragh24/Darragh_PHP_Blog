@@ -8,9 +8,36 @@
         </h1>
     </div>
 </div>
+<div class="whole-container">
+    <div class="util-container">
+        <div class="search-container">
+            <form action="{{ route('blog.index') }}" method="GET">
+                <div class="search-input-container">
+                    <input class="search-input-field" type="text" name="search" placeholder="Search by Title/Description" value="{{ request()->input('search') }}">
+                    <button type="search-submit-button">
+                        <svg width="20px" height="20px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.545 15.467l-3.779-3.779a6.15 6.15 0 0 0 .898-3.21c0-3.417-2.961-6.377-6.378-6.377A6.185 6.185 0 0 0 2.1 8.287c0 3.416 2.961 6.377 6.377 6.377a6.15 6.15 0 0 0 3.115-.844l3.799 3.801a.953.953 0 0 0 1.346 0l.943-.943c.371-.371.236-.84-.135-1.211zM4.004 8.287a4.282 4.282 0 0 1 4.282-4.283c2.366 0 4.474 2.107 4.474 4.474a4.284 4.284 0 0 1-4.283 4.283c-2.366-.001-4.473-2.109-4.473-4.474z" />
+                        </svg></button>
+                </div>
+            </form>
+        </div>
+        <div class="sort-container">
+            <form action="{{ route('blog.index') }}" method="GET">
+                <label for="sort_column">Sort By:</label>
+                <select class="sort_column" name="sort_column" id="sort_column">
+                    <option value="updated_at" {{ request()->input('sort_column') == 'updated_at' ? 'selected' : '' }}>Date Updated </option>
+                    <option value="created_at" {{ request()->input('sort_column') == 'created_at' ? 'selected' : '' }}>Date Created </option>
+                </select>
+                <select class="sort_order" name="sort_order" id="sort_order">
+                    <option value="desc" {{ request()->input('sort_order') == 'desc' ? 'selected' : '' }}>Descending</option>
+                    <option value="asc" {{ request()->input('sort_order') == 'asc' ? 'selected' : '' }}>Ascending</option>
+                </select>
 
-
-
+                <button class="sort-submit-button" type="submit">Apply</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 @if (session()->has('message'))
 <div class="w-4/5 m-auto mt-10 pl-2">
@@ -22,7 +49,7 @@
 
 @if (Auth::check())
 <div class="pt-15 w-4/5 m-auto">
-    <a href="/blog/create" class="bg-blue-500 uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+    <a href="/blog/create" class="bg-indigo-500 uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
         Create post
     </a>
 </div>
