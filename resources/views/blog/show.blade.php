@@ -29,9 +29,6 @@
         <div class="content-container">
             <p class="content-text">
                 {{ $post->content }}
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi doloribus modi cupiditate animi corporis, aspernatur, fuga optio dolor a provident ea eius, blanditiis amet odit eaque voluptatum veniam dicta quis!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio tempora ipsam tenetur qui iste, nulla repudiandae minima aperiam quasi deserunt possimus excepturi accusamus consequuntur hic sint! Tenetur, facilis vero.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora odio aperiam dolorum neque molestias voluptatibus blanditiis culpa, aliquam fuga, nihil, rem accusamus voluptatum ipsam vero labore quam eius commodi?
             </p>
         </div>
     </div>

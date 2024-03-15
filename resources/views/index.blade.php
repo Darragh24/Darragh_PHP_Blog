@@ -7,7 +7,7 @@
             <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
                 Looking for heaven on earth?
             </h1>
-            <a href="/blog" class="text-center bg-indigo-300 hover:bg-indigo-100 hover:text-indigo-300 text-white-700 py-2 px-4 font-bold text-xl uppercase">
+            <a href="/blog" class="text-center bg-indigo-500 hover:bg-indigo-100 hover:text-indigo-500 text-white-700 py-2 px-4 font-bold text-xl uppercase">
                 Read More
             </a>
         </div>
@@ -34,29 +34,13 @@
             We're sure you'll find some inspiration from our blogs, or feel free to share your own go-to holiday locations!
         </p>
 
-        <a href="/blog" class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+        <a href="/blog" class="uppercase bg-indigo-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
             Find Out More
         </a>
     </div>
 </div>
 
-<div class="text-center p-15 bg-black text-white">
-    <h2 class="text-2xl pb-5 text-l">
-        I'm an expert in...
-    </h2>
-
-    <span class="font-extrabold block text-4xl py-1">
-        Ux Design
-    </span>
-    <span class="font-extrabold block text-4xl py-1">
-        Project Management
-    </span>
-    <span class="font-extrabold block text-4xl py-1">
-        Digital Strategy
-    </span>
-    <span class="font-extrabold block text-4xl py-1">
-        Backend Development
-    </span>
+<div class="text-center p-15 bg-indigo-500 text-white">
 </div>
 
 <div class="text-center py-15">

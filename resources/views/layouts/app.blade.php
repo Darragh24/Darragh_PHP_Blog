@@ -20,14 +20,14 @@
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
 
     <div id="app">
-        <header class="bg-indigo-300 py-6">
+        <header class="bg-indigo-500 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-indigo-700 no-underline">
+                    <a href="{{ url('/') }}" class="text-lg font-semibold text-white no-underline">
                         TheScenicWorld
                     </a>
                 </div>
-                <nav class="space-x-4 text-indigo-700 text-sm sm:text-base">
+                <nav class="space-x-4 text-white text-sm sm:text-base">
                     <a href="/blog" class="no-underline hover:underline">
                         Blog
                     </a>
